@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title | default: "Alessandro Candeloro" }}</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: linear-gradient(145deg, #f9fafc 0%, #eef2f5 100%);
+      color: #1a2a3f;
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+
+    /* contenitore principale */
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(0px);
+      border-radius: 2rem;
+      box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.02);
+      overflow: hidden;
+      transition: all 0.2s ease;
+    }
+
+    /* intestazione e navigazione */
+    .site-header {
+      padding: 2rem 2rem 1rem 2rem;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .site-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      background: linear-gradient(135deg, #1e3c72, #2b4c7c);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.8rem;
+      margin-top: 1rem;
+      font-weight: 500;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #2c5a7a;
+      font-size: 1.05rem;
+      transition: color 0.2s, transform 0.1s;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 4px;
+    }
+
+    .nav-links a:hover {
+      color: #0f2c44;
+      border-bottom-color: #3b82f6;
+      transform: translateY(-1px);
+    }
+
+    /* contenuto principale */
+    .content {
+      padding: 2rem 2rem 2.5rem 2rem;
+    }
+
+    /* titolo della pagina (dal front matter) */
+    .page-heading {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.2px;
+      border-left: 5px solid #3b82f6;
+      padding-left: 1rem;
+      color: #0b2b44;
+    }
+
+    /* markdown e testo */
+    .content p, .content li, .content blockquote {
+      color: #2d3e50;
+      margin-bottom: 1rem;
+    }
+
+    .content a {
+      color: #1e6f9f;
+      text-decoration: none;
+      border-bottom: 1px dashed #8fc5e8;
+    }
+
+    .content a:hover {
+      color: #0a4b6e;
+      border-bottom-style: solid;
+    }
+
+    .content h2, .content h3 {
+      margin-top: 1.8rem;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+    }
+
+    .content img {
+      max-width: 100%;
+      border-radius: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    /* badge / card eleganti per eventuali note */
+    .note-card {
+      background: #f8fafc;
+      border-left: 4px solid #3b82f6;
+      padding: 1rem 1.4rem;
+      border-radius: 1rem;
+      margin: 1.5rem 0;
+    }
+
+    /* footer */
+    .site-footer {
+      background: #f1f5f9;
+      padding: 1.5rem 2rem;
+      border-top: 1px solid #e2e8f0;
+      font-size: 0.9rem;
+      color: #3a5a7a;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .social-links a {
+      color: #2c5a7a;
+      margin-left: 1.2rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .social-links a:hover {
+      color: #0f2c44;
+    }
+
+    .email {
+      font-family: monospace;
+      background: #eef2ff;
+      padding: 0.2rem 0.6rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 680px) {
+      body { padding: 1rem; }
+      .site-header, .content, .site-footer { padding: 1.2rem; }
+      .nav-links { gap: 1rem; }
+      .site-footer { flex-direction: column; gap: 0.8rem; text-align: center; }
+      .social-links a { margin: 0 0.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="site-title">Alessandro Candeloro</div>
+      <nav class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/research' | relative_url }}">Research</a>
+        <a href="{{ '/notes' | relative_url }}">Notes</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      {% if page.title %}
+        <h1 class="page-heading">{{ page.title }}</h1>
+      {% endif %}
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div>© {{ site.time | date: '%Y' }} Alessandro Candeloro — Theoretical Physics</div>
+      <div class="social-links">
+        <span class="email">📧 a.cande.q@gmail.com</span>
+        <a href="#">GitHub</a>
+        <a href="#">arXiv</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
