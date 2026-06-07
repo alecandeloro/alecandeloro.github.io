@@ -5,7 +5,7 @@ title: About
 
 # Ciao, sono Alessandro 👋
 
-Sono un fisico teorico che lavora nel campo dell'informazione e computazione quantistica.  
+Sono un fisico teorico che lavora nel campo dell'informazione e computazione quantistica 
 Attualmente mi occupo di codici quantistici a correzione d’errore e architetture NISQ.
 
 ---
