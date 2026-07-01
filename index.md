@@ -3,11 +3,11 @@ layout: default
 title: About
 ---
 
+I am a quantum information scientist currently working at the University of Palermo in the [Quantum Theory Group](https://quantum.unipa.it/). 
 
-I am a quantum information scientist working currently working at the University of Palermo in the Quantum UniPa Group.
 
+## Main Interests
 
-## Interessi principali
 - Quantum Thermodynamics
 - Quantum Measurement
 - Quantum Metrology
