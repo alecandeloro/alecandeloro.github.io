@@ -1,0 +1,40 @@
+.pub-badge {
+  display: inline-block;
+  padding: 0.15em 0.55em;
+  margin-left: 0.35em;
+  border-radius: 999px;
+  font-size: 0.72em;
+  font-weight: 600;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.pub-badge.pra,
+.pub-badge.pre,
+.pub-badge.prd {
+  background: #2d6cdf;
+}
+
+.pub-badge.qst {
+  background: #009688;
+}
+
+.pub-badge.aqt {
+  background: #7b61ff;
+}
+
+.pub-badge.jpa {
+  background: #607d8b;
+}
+
+.pub-badge.entropy {
+  background: #e67e22;
+}
+
+.pub-badge.appl {
+  background: #8e44ad;
+}
+
+.pub-badge.arxiv {
+  background: #b31b1b;
+}
