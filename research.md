@@ -10,22 +10,33 @@ title: Research
 
 {% assign publications = site.data.publications | sort: "year" | reverse %}
 
+<div class="publication-list">
+
+{% assign current_year = "" %}
+
 {% for paper in publications %}
 
-<div class="publication-card">
+{% if paper.year != current_year %}
 
-<h3>
-{{ paper.title }}
-</h3>
-<p>
+{% assign current_year = paper.year %}
+
+<h2 class="publication-year">{{ paper.year }}</h2>
+
+{% endif %}
+
+<div class="publication-item">
+
+<div class="publication-title">
+<strong>{{ paper.title }}</strong>
+</div>
+
+<div class="publication-authors">
 {{ paper.authors }}
-</p>
+</div>
 
-<p>
-<i>{{ paper.journal }}</i>
-<strong>{{ paper.volume }}</strong>
-({{ paper.year }})
-</p>
+<div class="publication-journal">
+<i>{{ paper.journal }}</i> {{ paper.volume }}
+</div>
 
 <div class="publication-links">
 
