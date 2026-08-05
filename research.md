@@ -16,9 +16,7 @@ title: Research
 
 <h3>
 {{ paper.title }}
-<span class="pub-badge">{{ paper.badge }}</span>
 </h3>
-
 <p>
 {{ paper.authors }}
 </p>
