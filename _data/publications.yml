@@ -1,95 +1,83 @@
 - title: "Average Equilibration Time for Gaussian Unitary Ensemble Hamiltonians"
-  authors: "E. Schwarzhans, **A. Candeloro**, F. C. Binder, M. P. E. Lock, P. Bakhshinezhad"
+  authors: "E. Schwarzhans, <u>A. Candeloro</u>, F. C. Binder, M. P. E. Lock, P. Bakhshinezhad"
   journal: "arXiv"
   year: 2026
   volume: "2603.28587"
-  badge: "arXiv"
   arxiv: "https://arxiv.org/abs/2603.28587"
 
 - title: "Thermodynamic Constraints on the Emergence of Intersubjectivity in Quantum Systems"
-  authors: "**A. Candeloro**, T. Debarba, F. C. Binder"
+  authors: "<u>A. Candeloro</u>, T. Debarba, F. C. Binder"
   journal: "Physical Review A"
   year: 2026
   volume: "113, 032201"
-  badge: "PRA"
   doi: "https://doi.org/10.1103/PhysRevA.113.032201"
 
 - title: "Precision Bounds for Multiple Currents in Open Quantum Systems"
-  authors: "S. V. Moreira, M. Radaelli, **A. Candeloro**, F. C. Binder, M. T. Mitchison"
+  authors: "S. V. Moreira, M. Radaelli, <u>A. Candeloro</u>, F. C. Binder, M. T. Mitchison"
   journal: "Physical Review E"
   year: 2025
   volume: "111, 064107"
-  badge: "PRE"
   doi: "https://doi.org/10.1103/PhysRevE.111.064107"
 
 - title: "Dimension Matters: Precision and Incompatibility in Multi-Parameter Quantum Estimation Models"
-  authors: "**A. Candeloro**, Z. Pazhotan, M. G. A. Paris"
+  authors: "<u>A. Candeloro</u>, Z. Pazhotan, M. G. A. Paris"
   journal: "Quantum Science and Technology"
   year: 2024
   volume: "9, 045045"
-  badge: "QST"
   doi: "https://doi.org/10.1088/2058-9565/ad57ef"
 
 - title: "Feedback-Assisted Quantum Search by Continuous-Time Quantum Walks"
-  authors: "**A. Candeloro**, C. Benedetti, M. G. Genoni, M. G. A. Paris"
+  authors: "<u>A. Candeloro</u>, C. Benedetti, M. G. Genoni, M. G. A. Paris"
   journal: "Advanced Quantum Technologies"
   year: 2023
   volume: "6, 2200093"
-  badge: "AQT"
   doi: "https://doi.org/10.1002/qute.202200093"
 
 - title: "On the Properties of the Asymptotic Incompatibility Measure in Multiparameter Quantum Estimation"
-  authors: "**A. Candeloro**, M. G. A. Paris, M. G. Genoni"
+  authors: "<u>A. Candeloro</u>, M. G. A. Paris, M. G. Genoni"
   journal: "Journal of Physics A: Mathematical and Theoretical"
   year: 2021
   volume: "54, 485301"
-  badge: "JPA"
   doi: "https://doi.org/10.1088/1751-8121/ac2e28"
 
 - title: "Quantum Probes for the Characterization of Nonlinear Media"
-  authors: "**A. Candeloro**, S. Razavian, M. Piccolini, B. Teklu, S. Olivares, M. G. A. Paris"
+  authors: "<u>A. Candeloro</u>, S. Razavian, M. Piccolini, B. Teklu, S. Olivares, M. G. A. Paris"
   journal: "Entropy"
   year: 2021
   volume: "23, 1353"
-  badge: "Entropy"
   doi: "https://doi.org/10.3390/e23101353"
 
 - title: "An Enhanced Photonic Quantum Finite Automaton"
-  authors: "**A. Candeloro**, C. Mereghetti, B. Palano, S. Cialdi, M. G. A. Paris, S. Olivares"
+  authors: "<u>A. Candeloro</u>, C. Mereghetti, B. Palano, S. Cialdi, M. G. A. Paris, S. Olivares"
   journal: "Applied Sciences"
   year: 2021
   volume: "11, 8768"
-  badge: "Appl. Sci."
   doi: "https://doi.org/10.3390/app11188768"
 
 - title: "Role of Topology in Determining the Precision of a Finite Thermometer"
-  authors: "**A. Candeloro**, L. Razzoli, P. Bordone, M. G. A. Paris"
+  authors: "<u>A. Candeloro</u>, L. Razzoli, P. Bordone, M. G. A. Paris"
   journal: "Physical Review E"
   year: 2021
   volume: "104, 014136"
-  badge: "PRE"
   doi: "https://doi.org/10.1103/PhysRevE.104.014136"
 
 - title: "Discrimination of Ohmic Thermal Baths by Quantum Dephasing Probes"
-  authors: "**A. Candeloro**, M. G. A. Paris"
+  authors: "<u>A. Candeloro</u>, M. G. A. Paris"
   journal: "Physical Review A"
   year: 2021
   volume: "103, 012217"
-  badge: "PRA"
   doi: "https://doi.org/10.1103/PhysRevA.103.012217"
 
 - title: "Continuous-Time Quantum Walks in the Presence of a Quadratic Perturbation"
-  authors: "**A. Candeloro**, L. Razzoli, S. Cavazzoni, P. Bordone, M. G. A. Paris"
+  authors: "<u>A. Candeloro</u>, L. Razzoli, S. Cavazzoni, P. Bordone, M. G. A. Paris"
   journal: "Physical Review A"
   year: 2020
   volume: "102, 042214"
-  badge: "PRA"
   doi: "https://doi.org/10.1103/PhysRevA.102.042214"
 
 - title: "Quantum Probes for Universal Gravity Corrections"
-  authors: "**A. Candeloro**, C. D. E. Boschi, M. G. A. Paris"
+  authors: "<u>A. Candeloro</u>, C. D. E. Boschi, M. G. A. Paris"
   journal: "Physical Review D"
   year: 2020
   volume: "102, 056012"
-  badge: "PRD"
   doi: "https://doi.org/10.1103/PhysRevD.102.056012"
