@@ -3,18 +3,66 @@ layout: default
 title: Research
 ---
 
-## Publications 
+## Publications
 
-- Average Equilibration Time for Gaussian Unitary Ensemble Hamiltonians E Schwarzhans, A Candeloro, FC Binder, MPE Lock, P Bakhshinezhad, arXiv preprint arXiv:2603.28587 (2026)
-- Thermodynamic constraints on the emergence of intersubjectivity in quantum systems A Candeloro, T Debarba, FC Binder Physical Review A 113 (3), 032201 (2026)
-- Precision bounds for multiple currents in open quantum systems, SV Moreira, M Radaelli, A Candeloro, FC Binder, MT Mitchison, Physical Review E 111 (6), 064107 (2025)
-- Dimension matters: precision and incompatibility in multi-parameter quantum estimation models A Candeloro, Z Pazhotan, MGA Paris, Quantum Science and Technology 9 (4), 045045 (2024)
-- Feedback‐Assisted Quantum Search by Continuous‐Time Quantum Walks A Candeloro, C Benedetti, MG Genoni, MGA Paris Advanced Quantum Technologies 6 (1), 2200093 (2023)
-- On the properties of the asymptotic incompatibility measure in multiparameter quantum estimation A Candeloro, MGA Paris, MG Genoni, Journal of Physics A: Mathematical and Theoretical 54 (48), 485301 (2021)
-- Quantum probes for the characterization of nonlinear media A Candeloro, S Razavian, M Piccolini, B Teklu, S Olivares, MGA Paris Entropy 23 (10), 1353 (2021)
-- An enhanced photonic quantum finite automaton A Candeloro, C Mereghetti, B Palano, S Cialdi, MGA Paris, S Olivares
-Applied Sciences 11 (18), 8768 (2021)
-- Role of topology in determining the precision of a finite thermomet A Candeloro, L Razzoli, P Bordone, MGA Paris Physical Review E 104 (1), 014136 (2021)
-- Discrimination of Ohmic thermal baths by quantum dephasing probes A Candeloro, MGA Paris Physical Review A 103 (1), 012217 (2021)
-- Continuous-time quantum walks in the presence of a quadratic perturbation A Candeloro, L Razzoli, S Cavazzoni, P Bordone, MGA Paris Physical Review A 102 (4), 042214 (2020)
-- Quantum probes for universal gravity corrections A Candeloro, CDE Boschi, MGA Paris Physical Review D 102 (5), 056012 (2020)
+*A complete publication list is available on [Google Scholar](https://scholar.google.com/).*
+
+- **Average Equilibration Time for Gaussian Unitary Ensemble Hamiltonians** <span class="pub-badge arxiv">arXiv</span>  
+  E. Schwarzhans, **A. Candeloro**, F. C. Binder, M. P. E. Lock, P. Bakhshinezhad.  
+  *arXiv:2603.28587* (2026) ·
+  [arXiv](https://arxiv.org/abs/2603.28587)
+
+- **Thermodynamic Constraints on the Emergence of Intersubjectivity in Quantum Systems** <span class="pub-badge pra">PRA</span>  
+  **A. Candeloro**, T. Debarba, F. C. Binder.  
+  *Physical Review A* **113**, 032201 (2026) ·
+  [DOI](https://doi.org/10.1103/PhysRevA.113.032201)
+
+- **Precision Bounds for Multiple Currents in Open Quantum Systems** <span class="pub-badge pre">PRE</span>  
+  S. V. Moreira, M. Radaelli, **A. Candeloro**, F. C. Binder, M. T. Mitchison.  
+  *Physical Review E* **111**, 064107 (2025) ·
+  [DOI](https://doi.org/10.1103/PhysRevE.111.064107)
+
+- **Dimension Matters: Precision and Incompatibility in Multi-Parameter Quantum Estimation Models** <span class="pub-badge qst">QST</span>  
+  **A. Candeloro**, Z. Pazhotan, M. G. A. Paris.  
+  *Quantum Science and Technology* **9**, 045045 (2024) ·
+  [DOI](https://doi.org/10.1088/2058-9565/ad57ef)
+
+- **Feedback-Assisted Quantum Search by Continuous-Time Quantum Walks** <span class="pub-badge aqt">AQT</span>  
+  **A. Candeloro**, C. Benedetti, M. G. Genoni, M. G. A. Paris.  
+  *Advanced Quantum Technologies* **6**, 2200093 (2023) ·
+  [DOI](https://doi.org/10.1002/qute.202200093)
+
+- **On the Properties of the Asymptotic Incompatibility Measure in Multiparameter Quantum Estimation** <span class="pub-badge jpa">JPA</span>  
+  **A. Candeloro**, M. G. A. Paris, M. G. Genoni.  
+  *Journal of Physics A: Mathematical and Theoretical* **54**, 485301 (2021) ·
+  [DOI](https://doi.org/10.1088/1751-8121/ac2e28)
+
+- **Quantum Probes for the Characterization of Nonlinear Media** <span class="pub-badge entropy">Entropy</span>  
+  **A. Candeloro**, S. Razavian, M. Piccolini, B. Teklu, S. Olivares, M. G. A. Paris.  
+  *Entropy* **23**, 1353 (2021) ·
+  [DOI](https://doi.org/10.3390/e23101353)
+
+- **An Enhanced Photonic Quantum Finite Automaton** <span class="pub-badge appl">Appl. Sci.</span>  
+  **A. Candeloro**, C. Mereghetti, B. Palano, S. Cialdi, M. G. A. Paris, S. Olivares.  
+  *Applied Sciences* **11**, 8768 (2021) ·
+  [DOI](https://doi.org/10.3390/app11188768)
+
+- **Role of Topology in Determining the Precision of a Finite Thermometer** <span class="pub-badge pre">PRE</span>  
+  **A. Candeloro**, L. Razzoli, P. Bordone, M. G. A. Paris.  
+  *Physical Review E* **104**, 014136 (2021) ·
+  [DOI](https://doi.org/10.1103/PhysRevE.104.014136)
+
+- **Discrimination of Ohmic Thermal Baths by Quantum Dephasing Probes** <span class="pub-badge pra">PRA</span>  
+  **A. Candeloro**, M. G. A. Paris.  
+  *Physical Review A* **103**, 012217 (2021) ·
+  [DOI](https://doi.org/10.1103/PhysRevA.103.012217)
+
+- **Continuous-Time Quantum Walks in the Presence of a Quadratic Perturbation** <span class="pub-badge pra">PRA</span>  
+  **A. Candeloro**, L. Razzoli, S. Cavazzoni, P. Bordone, M. G. A. Paris.  
+  *Physical Review A* **102**, 042214 (2020) ·
+  [DOI](https://doi.org/10.1103/PhysRevA.102.042214)
+
+- **Quantum Probes for Universal Gravity Corrections** <span class="pub-badge prd">PRD</span>  
+  **A. Candeloro**, C. D. E. Boschi, M. G. A. Paris.  
+  *Physical Review D* **102**, 056012 (2020) ·
+  [DOI](https://doi.org/10.1103/PhysRevD.102.056012)
