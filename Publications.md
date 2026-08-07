@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research
+title: Publications
 ---
 
 <div class="publications-header">
