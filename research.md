@@ -11,10 +11,9 @@ title: Research
       Selected publications and preprints.
     </p>
   </div>
-
   <a
     class="scholar-button"
-    href="https://scholar.google.com/"
+    href="https://scholar.google.com/citations?user=dtuo72EAAAAJ&hl=it&oi=ao"
     target="_blank"
     rel="noopener">
     Google Scholar ↗
