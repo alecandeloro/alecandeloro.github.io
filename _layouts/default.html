@@ -166,8 +166,44 @@
       .site-footer { flex-direction: column; gap: 0.8rem; text-align: center; }
       .social-links a { margin: 0 0.6rem; }
     }
-    /* =========================================
-   PUBLICATIONS
+
+:root {
+  /* =========================================
+     ACADEMIC BLUE PALETTE
+     ========================================= */
+
+  /* Main blue */
+  --pub-primary: #2f5f85;
+  --pub-primary-dark: #214766;
+
+  /* Backgrounds */
+  --pub-card-bg: #ffffff;
+  --pub-badge-bg: #eef4f8;
+  --pub-abstract-bg: #f5f8fa;
+
+  /* Borders */
+  --pub-border: #dce5eb;
+  --pub-light-border: #edf1f4;
+  --pub-badge-border: #d3e0e8;
+
+  /* Text */
+  --pub-title: #303c45;
+  --pub-text: #68757e;
+  --pub-text-strong: #4f5e68;
+  --pub-text-muted: #89959d;
+  --pub-label: #5e6b74;
+
+  /* Icons */
+  --pub-icon: #8eafc3;
+
+  /* Shadows */
+  --pub-shadow: rgba(35, 60, 75, 0.07);
+  --pub-shadow-hover: rgba(35, 60, 75, 0.12);
+}
+    
+
+/* =========================================
+   HEADER
    ========================================= */
 
 .publications-header {
@@ -183,41 +219,48 @@
   font-size: 2.4rem !important;
   font-weight: 750 !important;
   letter-spacing: -1px;
-  color: #3d7d43;
-}
-
-.publications-title::first-letter {
-  color: #3d7d43;
+  color: var(--pub-primary);
 }
 
 .publications-subtitle {
   margin: 0.35rem 0 0 !important;
-  color: #6c746e !important;
+  color: var(--pub-text) !important;
   font-size: 0.95rem;
 }
+
+
+/* =========================================
+   GOOGLE SCHOLAR BUTTON
+   ========================================= */
 
 .scholar-button {
   display: inline-flex;
   align-items: center;
   padding: 0.65rem 1rem;
   border-radius: 999px;
-  background: #edf4ea;
-  color: #477d3f !important;
-  border: 1px solid #dce9d8 !important;
+
+  background: var(--pub-badge-bg);
+  color: var(--pub-primary) !important;
+  border: 1px solid var(--pub-badge-border) !important;
+
   font-size: 0.85rem;
   font-weight: 650;
   text-decoration: none !important;
   white-space: nowrap;
+
   transition: all 0.2s ease;
 }
 
 .scholar-button:hover {
-  background: #e2eddf;
+  background: var(--pub-badge-border);
+  color: var(--pub-primary-dark) !important;
   transform: translateY(-1px);
 }
 
 
-/* Publication list */
+/* =========================================
+   PUBLICATION LIST
+   ========================================= */
 
 .publication-list {
   display: flex;
@@ -226,15 +269,22 @@
 }
 
 
-/* Individual card */
+/* =========================================
+   PUBLICATION CARD
+   ========================================= */
 
 .publication-card {
   position: relative;
-  background: #ffffff;
-  border: 1px solid #e4e8e2;
+
+  background: var(--pub-card-bg);
+  border: 1px solid var(--pub-border);
+
   border-radius: 0.75rem;
-  box-shadow: 0 2px 7px rgba(30, 50, 30, 0.07);
+
+  box-shadow: 0 2px 7px var(--pub-shadow);
+
   overflow: hidden;
+
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease;
@@ -242,7 +292,7 @@
 
 .publication-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 7px 18px rgba(30, 50, 30, 0.10);
+  box-shadow: 0 7px 18px var(--pub-shadow-hover);
 }
 
 .publication-main {
@@ -250,7 +300,9 @@
 }
 
 
-/* Title + year */
+/* =========================================
+   TITLE + YEAR
+   ========================================= */
 
 .publication-top {
   display: flex;
@@ -262,22 +314,31 @@
 .publication-title {
   margin: 0 !important;
   padding: 0 !important;
-  color: #394137 !important;
+
+  color: var(--pub-title) !important;
+
   font-size: 1.02rem !important;
   line-height: 1.35 !important;
   font-weight: 700 !important;
+
   letter-spacing: -0.15px;
 }
 
 .publication-year {
   flex-shrink: 0;
+
   display: inline-flex;
   align-items: center;
+
   padding: 0.35rem 0.75rem;
+
   border-radius: 999px;
-  background: #edf4ea;
-  border: 1px solid #dce8d8;
-  color: #527e48;
+
+  background: var(--pub-badge-bg);
+  border: 1px solid var(--pub-badge-border);
+
+  color: var(--pub-primary);
+
   font-size: 0.78rem;
   font-weight: 600;
   line-height: 1;
@@ -286,84 +347,122 @@
 .publication-year::before {
   content: "▣";
   margin-right: 0.4rem;
+
+  color: var(--pub-primary);
   font-size: 0.7rem;
 }
 
 
-/* Journal */
+/* =========================================
+   JOURNAL
+   ========================================= */
 
 .publication-journal {
   display: flex;
   align-items: center;
+
   gap: 0.55rem;
   margin-top: 0.75rem;
-  color: #6c7470;
+
+  color: var(--pub-text);
+
   font-size: 0.88rem;
 }
 
 .publication-volume {
-  color: #8a918d;
+  color: var(--pub-text-muted);
 }
 
+
+/* =========================================
+   ICONS
+   ========================================= */
+
 .publication-icon {
-  color: #a8c79e;
+  color: var(--pub-icon);
+
   font-size: 0.85rem;
+
   width: 1rem;
   display: inline-block;
 }
 
 
-/* Authors */
+/* =========================================
+   AUTHORS
+   ========================================= */
 
 .publication-authors {
   display: flex;
   align-items: flex-start;
+
   gap: 0.55rem;
   margin-top: 0.55rem;
-  color: #68706b;
+
+  color: var(--pub-text);
+
   font-size: 0.88rem;
   line-height: 1.55;
 }
 
 .publication-authors strong {
-  color: #59615c;
+  color: var(--pub-text-strong);
 }
 
 
-/* Links / bottom row */
+/* =========================================
+   BOTTOM ACTIONS
+   ========================================= */
 
 .publication-actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   gap: 1rem;
   margin-top: 1rem;
   padding-top: 0.8rem;
-  border-top: 1px solid #f0f2ef;
+
+  border-top: 1px solid var(--pub-light-border);
 }
 
+
+/* =========================================
+   VIEW PUBLICATION
+   ========================================= */
+
 .publication-link {
-  color: #4d813e !important;
+  color: var(--pub-primary) !important;
+
   border: none !important;
+
   font-size: 0.73rem;
   font-weight: 750;
+
   letter-spacing: 1.1px;
+
   text-decoration: none !important;
+
   transition: color 0.15s ease;
 }
 
 .publication-link:hover {
-  color: #315d2c !important;
+  color: var(--pub-primary-dark) !important;
 }
 
 
-/* Abstract */
+/* =========================================
+   ABSTRACT
+   ========================================= */
 
 .abstract-details {
   margin-left: auto;
-  color: #626a65;
+
+  color: var(--pub-label);
+
   font-size: 0.72rem;
   font-weight: 700;
+
   letter-spacing: 1.1px;
 }
 
@@ -379,24 +478,37 @@
 
 .abstract-details summary span {
   margin-left: 0.35rem;
-  color: #4d813e;
+
+  color: var(--pub-primary);
+
   font-size: 0.9rem;
+}
+
+.abstract-details[open] summary span {
+  color: var(--pub-primary-dark);
 }
 
 .abstract-content {
   margin-top: 0.8rem;
   padding: 1rem;
-  background: #f6f8f5;
+
+  background: var(--pub-abstract-bg);
+
   border-radius: 0.55rem;
-  color: #626a65;
+
+  color: var(--pub-text);
+
   font-size: 0.88rem;
   font-weight: 400;
+
   line-height: 1.6;
   letter-spacing: 0;
 }
 
 
-/* Mobile */
+/* =========================================
+   MOBILE
+   ========================================= */
 
 @media (max-width: 680px) {
 
@@ -437,6 +549,7 @@
     margin-left: 0;
   }
 }
+  
   </style>
 </head>
 <body>
@@ -451,9 +564,9 @@
     </header>
 
     <main class="content">
-      {% if page.title %}
-        <h1 class="page-heading">{{ page.title }}</h1>
-      {% endif %}
+        {% if page.title and page.title != "Research" %}
+          <h1 class="page-heading">{{ page.title }}</h1>
+        {% endif %}
       {{ content }}
     </main>
 
