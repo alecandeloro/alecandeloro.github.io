@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Publications
+lang: en
+translation: /it/publications
 ---
 
 <div class="publications-header">
