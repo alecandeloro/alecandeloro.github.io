@@ -2,14 +2,36 @@
 layout: default
 ---
 
-I am a quantum information scientist currently working at the University of Palermo in the [Quantum Theory Group](https://quantum.unipa.it/). 
+<div class="about-hero">
 
+  <div class="about-text">
 
-## Main Interests
+    <p>
+      I am a quantum information scientist currently working at the
+      University of Palermo in the
+      <a href="https://quantum.unipa.it/">Quantum Theory Group</a>.
+    </p>
 
-- Quantum Thermodynamics
-- Quantum Measurement
-- Quantum Metrology
-- Quantum Walks
+    <h2>Main Interests</h2>
 
-📫 **Email**: [a.cande.q@gmail.com](mailto:a.cande.q@gmail.com)
+    <ul>
+      <li>Quantum Thermodynamics</li>
+      <li>Quantum Measurement</li>
+      <li>Quantum Metrology</li>
+      <li>Quantum Walks</li>
+    </ul>
+
+    <p>
+      📫 <strong>Email</strong>:
+      <a href="mailto:a.cande.q@gmail.com">a.cande.q@gmail.com</a>
+    </p>
+
+  </div>
+
+  <div class="about-photo">
+    <img
+      src="{{ '/assets/images/profile.jpg' | relative_url }}"
+      alt="A. Candeloro">
+  </div>
+
+</div>
