@@ -8,9 +8,9 @@ translation: /publications
 <div class="publications-header">
 
   <div>
-    <h2 class="publications-title">Publications</h2>
+    <h2 class="publications-title">Pubblicazioni</h2>
     <p class="publications-subtitle">
-      Selected publications and preprints.
+      Pubblicazioni e preprint
     </p>
   </div>
   <a
