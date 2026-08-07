@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: it
-translation: /index
+translation: /
 ---
 
 <div class="about-hero">
