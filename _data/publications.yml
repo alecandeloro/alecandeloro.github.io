@@ -49,12 +49,15 @@
 
 
 
-- title: "On the Properties of the Asymptotic Incompatibility Measure in Multiparameter Quantum Estimation"
+- title: "On the properties of the asymptotic incompatibility measure in multiparameter quantum estimation"
   authors: "<u>A. Candeloro</u>, M. G. A. Paris, M. G. Genoni"
   journal: "Journal of Physics A: Mathematical and Theoretical"
   year: 2021
   volume: "54, 485301"
-  doi: "https://doi.org/10.1088/1751-8121/ac2e28"
+  doi: "https://doi.org/10.1088/1751-8121/ac331e"
+  abstract: >
+    We address the use of asymptotic incompatibility (AI) to assess the quantumness of a multiparameter quantum statistical model. AI is a recently introduced measure which quantifies the difference between the Holevo and the symmetric logarithmic derivative (SLD) scalar bounds, and can be evaluated using only the SLD operators of the model. At first, we evaluate analytically the AI of the most general quantum statistical models involving two-level (qubit) and single-mode Gaussian continuous-variable quantum systems, and prove that AI is a simple monotonous function of the state purity. Then, we numerically investigate the same problem for qudits (d-dimensional quantum systems, with 2 < d ⩽ 4), showing that, while in general AI is not in general a function of purity, we have enough numerical evidence to conclude that the maximum amount of AI is attainable only for quantum statistical models characterized by a purity larger than mumin = 1/(d-1). In addition, by parametrizing qudit states as thermal (Gibbs) states, numerical results suggest that, once the spectrum of the Hamiltonian is fixed, the AI measure is in one-to-one correspondence with the fictitious temperature parameter β characterizing the family of density operators. Finally, by studying in detail the definition and properties of the AI measure we find that: (i) given a quantum statistical model, one can readily identify the maximum number of asymptotically compatible parameters; (ii) the AI of a quantum statistical model bounds from above the AI of any sub-model that can be defined by fixing one or more of the original unknown parameters (or functions thereof), leading to possibly useful bounds on the AI of models involving noisy quantum dynamics.
+    
 
 - title: "Quantum Probes for the Characterization of Nonlinear Media"
   authors: "<u>A. Candeloro</u>, S. Razavian, M. Piccolini, B. Teklu, S. Olivares, M. G. A. Paris"
@@ -62,6 +65,9 @@
   year: 2021
   volume: "23, 1353"
   doi: "https://doi.org/10.3390/e23101353"
+  abstract: >
+    Active optical media leading to interaction Hamiltonians of the form 𝐻=𝜆˜(𝑎+𝑎†)𝜁 represent a crucial resource for quantum optical technology. In this paper, we address the characterization of those nonlinear media using quantum probes, as opposed to semiclassical ones. In particular, we investigate how squeezed probes may improve individual and joint estimation of the nonlinear coupling 𝜆˜ and of the nonlinearity order 𝜁. Upon using tools from quantum estimation, we show that: (i) the two parameters are compatible, i.e., the may be jointly estimated without additional quantum noise; (ii) the use of squeezed probes improves precision at fixed overall energy of the probe; (iii) for low energy probes, squeezed vacuum represent the most convenient choice, whereas for increasing energy an optimal squeezing fraction may be determined; (iv) using optimized quantum probes, the scaling of the corresponding precision with energy improves, both for individual and joint estimation of the two parameters, compared to semiclassical coherent probes. We conclude that quantum probes represent a resource to enhance precision in the characterization of nonlinear media, and foresee potential applications with current technology.
+
 
 - title: "An Enhanced Photonic Quantum Finite Automaton"
   authors: "<u>A. Candeloro</u>, C. Mereghetti, B. Palano, S. Cialdi, M. G. A. Paris, S. Olivares"
@@ -69,31 +75,46 @@
   year: 2021
   volume: "11, 8768"
   doi: "https://doi.org/10.3390/app11188768"
+  abstrac: >
+    In a recent paper we have described an optical implementation of a measure-once one-way quantum finite automaton recognizing a well-known family of unary periodic languages, accepting words not in the language with a given error probability. To process input words, the automaton exploits the degree of polarization of single photons and, to reduce the acceptance error probability, a technique of confidence amplification using the photon counts is implemented. In this paper, we show that the performance of this automaton may be further improved by using strategies that suitably consider both the orthogonal output polarizations of the photon. In our analysis, we also take into account how detector dark counts may affect the performance of the automaton.
 
-- title: "Role of Topology in Determining the Precision of a Finite Thermometer"
+
+- title: "Role of topology in determining the precision of a finite thermometer"
   authors: "<u>A. Candeloro</u>, L. Razzoli, P. Bordone, M. G. A. Paris"
   journal: "Physical Review E"
   year: 2021
   volume: "104, 014136"
   doi: "https://doi.org/10.1103/PhysRevE.104.014136"
+  abstract: >
+    Temperature fluctuations of a finite system follow the Landau bound 𝛿⁢𝑇2=𝑇2/𝐶⁡(𝑇) where 𝐶⁡(𝑇) is the heat capacity of the system. In turn, the same bound sets a limit to the precision of temperature estimation when the system itself is used as a thermometer. In this paper, we employ graph theory and the concept of Fisher information to assess the role of topology on the thermometric performance of a given system. We find that low connectivity is a resource to build precise thermometers working at low temperatures, whereas highly connected systems are suitable for higher temperatures. Upon modeling the thermometer as a set of vertices for the quantum walk of an excitation, we compare the precision achievable by position measurement to the optimal one, which itself corresponds to energy measurement.
 
-- title: "Discrimination of Ohmic Thermal Baths by Quantum Dephasing Probes"
+
+
+- title: "Discrimination of Ohmic thermal baths by quantum dephasing probes"
   authors: "<u>A. Candeloro</u>, M. G. A. Paris"
   journal: "Physical Review A"
   year: 2021
   volume: "103, 012217"
   doi: "https://doi.org/10.1103/PhysRevA.103.012217"
+  abstract: >
+    We address the discrimination of structured baths at different temperatures by dephasing quantum probes. We derive the exact reduced dynamics and evaluate the minimum error probability achievable by three different kinds of quantum probes, namely, a qubit, a qutrit, and a quantum register made of two qubits. Our results indicate that dephasing quantum probes are useful in discriminating low values of temperature and that lower probabilities of error are achieved for intermediate values of the interaction time, where the minimum probability of error scales as 1/2⁢𝑁, with 𝑁 the number of energy levels of the probe. A qutrit probe outperforms a qubit one in the discrimination task, whereas entangled probes show smaller optimal times.
 
-- title: "Continuous-Time Quantum Walks in the Presence of a Quadratic Perturbation"
+
+
+- title: "Continuous-time quantum walks in the presence of a quadratic perturbation"
   authors: "<u>A. Candeloro</u>, L. Razzoli, S. Cavazzoni, P. Bordone, M. G. A. Paris"
   journal: "Physical Review A"
   year: 2020
   volume: "102, 042214"
   doi: "https://doi.org/10.1103/PhysRevA.102.042214"
+  abstract: >
+    We address the properties of continuous-time quantum walks with Hamiltonians of the form ℋ=𝐿+𝜆⁢𝐿2, with 𝐿 the Laplacian matrix of the underlying graph and the perturbation 𝜆⁢𝐿2 motivated by its potential use to introduce next-nearest-neighbor hopping. We consider cycle, complete, and star graphs as paradigmatic models with low and high connectivity and/or symmetry. First, we investigate the dynamics of an initially localized walker. Then we devote attention to estimating the perturbation parameter 𝜆 using only a snapshot of the walker dynamics. Our analysis shows that a walker on a cycle graph spreads ballistically independently of the perturbation, whereas on complete and star graphs one observes perturbation-dependent revivals and strong localization phenomena. Concerning the estimation of the perturbation, we determine the walker preparations and the simple graphs that maximize the quantum Fisher information. We also assess the performance of position measurement, which turns out to be optimal, or nearly optimal, in several situations of interest. Besides fundamental interest, our study may find applications in designing enhanced algorithms on graphs.
 
-- title: "Quantum Probes for Universal Gravity Corrections"
+- title: "Quantum probes for universal gravity corrections"
   authors: "<u>A. Candeloro</u>, C. D. E. Boschi, M. G. A. Paris"
   journal: "Physical Review D"
   year: 2020
   volume: "102, 056012"
   doi: "https://doi.org/10.1103/PhysRevD.102.056012"
+  abstract: >
+    We address the precision of the estimation procedures for the minimum length arising from gravitational theories. In particular, we provide bounds on precision and assess the use of quantum probes to enhance the estimation performance. At first, we review the concept of minimum length and how it induces a perturbative term appearing in the Hamiltonian of any quantum system, which itself is proportional to a parameter depending on the minimum length. We then systematically study the effects of this perturbation on different state preparations and for several one-dimensional systems, and evaluate the quantum Fisher information in order to find the ultimate bounds to precision. Eventually, we investigate the role of dimensionality by analyzing the use of two-dimensional square well and harmonic oscillator systems to probe the minimal length. Our results show that quantum probes are convenient resources, providing potential enhancement in precision. Additionally, our results provide a set of guidelines to design future experiments to detect the minimum length.
