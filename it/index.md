@@ -1,7 +1,7 @@
 ---
 layout: default
-lang: en
-translation: /it/
+lang: it
+translation: /
 ---
 
 <div class="about-hero">
@@ -9,17 +9,16 @@ translation: /it/
   <div class="about-text">
 
     <p>
-      I am a quantum information scientist currently working at the
-      University of Palermo in the
-      <a href="https://quantum.unipa.it/">Quantum Theory Group</a>.
+      Sono un fisico dell'informazione quantistica. Lavoro all'università
+      di Palermo nel <a href="https://quantum.unipa.it/">Quantum Theory Group</a>.
     </p>
 
-    <h2>Main Interests</h2>
+    <h2>Interessi Principali</h2>
 
     <ul>
-      <li>Quantum Thermodynamics</li>
-      <li>Quantum Measurement</li>
-      <li>Quantum Metrology</li>
+      <li>Termodinamica Quantistica</li>
+      <li>Misura Quantistica</li>
+      <li>Metrologia Quantistica</li>
       <li>Quantum Walks</li>
     </ul>
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -622,22 +622,114 @@
     margin-left: 0;
   }
 }
-  
+/* =========================================
+   HEADER / LANGUAGE SWITCHER
+   ========================================= */
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+}
+
+.language-switcher a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  padding: 0.35rem 0.7rem;
+
+  background: #edf3f7;
+  color: #28577a !important;
+
+  border: 1px solid #d3e0e8 !important;
+  border-radius: 999px;
+
+  font-size: 0.75rem;
+  font-weight: 650;
+
+  text-decoration: none !important;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.language-switcher a:hover {
+  background: #d9e6ee;
+  color: #183d58 !important;
+
+  transform: translateY(-1px);
+}
   </style>
 </head>
 <body>
   <div class="container">
-    <header class="site-header">
-      <div class="site-title">Alessandro Candeloro</div>
-      <nav class="nav-links">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/Publications' | relative_url }}">Publications</a>
-        <a href="{{ '/notes' | relative_url }}">Notes</a>
-      </nav>
-    </header>
+<header class="site-header">
 
+  <div class="header-top">
+
+    <div class="site-title">
+      Alessandro Candeloro
+    </div>
+
+    {% if page.translation %}
+
+      <div class="language-switcher">
+
+        {% if page.lang == "it" %}
+
+          <a href="{{ page.translation | relative_url }}"
+             title="English"
+             aria-label="English">
+            🇬🇧 EN
+          </a>
+
+        {% else %}
+
+          <a href="{{ page.translation | relative_url }}"
+             title="Italiano"
+             aria-label="Italiano">
+            🇮🇹 IT
+          </a>
+
+        {% endif %}
+
+      </div>
+
+    {% endif %}
+
+  </div>
+
+
+  {% if page.lang == "it" %}
+
+    <nav class="nav-links">
+      <a href="{{ '/it/' | relative_url }}">Home</a>
+      <a href="{{ '/it/publications' | relative_url }}">Pubblicazioni</a>
+      <a href="{{ '/it/notes' | relative_url }}">Note</a>
+    </nav>
+
+  {% else %}
+
+    <nav class="nav-links">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/publications' | relative_url }}">Publications</a>
+      <a href="{{ '/notes' | relative_url }}">Notes</a>
+    </nav>
+
+  {% endif %}
+
+</header>
     <main class="content">
-        {% if page.title and page.title != "Publications" %}
+        {% if page.title and page.title != "Publications" and page.title != "Pubblicazioni" %}
           <h1 class="page-heading">{{ page.title }}</h1>
         {% endif %}
       {{ content }}
@@ -649,9 +741,7 @@
         <span class="email">📧 a.cande.q@gmail.com</span>
         <a href="https://arxiv.org/a/candeloro_a_1.html">arXiv</a>
         <a href="https://orcid.org/0000-0003-0582-4941">ORCID</a>
-        <a href="www.linkedin.com/in/alessandro-candeloro-711620125
-
-">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/alessandro-candeloro-711620125">LinkedIn</a>
       </div>
     </footer>
   </div>
