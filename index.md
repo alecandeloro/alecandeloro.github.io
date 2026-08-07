@@ -2,27 +2,36 @@
 layout: default
 ---
 
-<img
-  src="{{ '/assets/images/profile.jpeg' | relative_url }}"
-  alt="A. Candeloro"
-  class="profile-photo">
+<div class="about-hero">
 
-<p>
-I am a quantum information scientist currently working at the
-University of Palermo in the
-<a href="https://quantum.unipa.it/">Quantum Theory Group</a>.
-</p>
+  <div class="about-text">
 
-<h2>Main Interests</h2>
+    <p>
+      I am a quantum information scientist currently working at the
+      University of Palermo in the
+      <a href="https://quantum.unipa.it/">Quantum Theory Group</a>.
+    </p>
 
-<ul>
-  <li>Quantum Thermodynamics</li>
-  <li>Quantum Measurement</li>
-  <li>Quantum Metrology</li>
-  <li>Quantum Walks</li>
-</ul>
+    <h2>Main Interests</h2>
 
-<p>
-📫 <strong>Email</strong>:
-<a href="mailto:a.cande.q@gmail.com">a.cande.q@gmail.com</a>
-</p>
+    <ul>
+      <li>Quantum Thermodynamics</li>
+      <li>Quantum Measurement</li>
+      <li>Quantum Metrology</li>
+      <li>Quantum Walks</li>
+    </ul>
+
+    <p>
+      📫 <strong>Email</strong>:
+      <a href="mailto:a.cande.q@gmail.com">a.cande.q@gmail.com</a>
+    </p>
+
+  </div>
+
+  <div class="about-photo">
+    <img
+      src="{{ '/assets/images/profile.jpg' | relative_url }}"
+      alt="A. Candeloro">
+  </div>
+
+</div>
