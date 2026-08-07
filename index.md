@@ -3,7 +3,7 @@ layout: default
 ---
 
 <img
-  src="{{ '/assets/images/profile.jpg' | relative_url }}"
+  src="{{ '/assets/images/profile.jpeg' | relative_url }}"
   alt="A. Candeloro"
   class="profile-photo">
 
