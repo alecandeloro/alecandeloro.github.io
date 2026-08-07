@@ -9,7 +9,33 @@
     /* =========================================
    ABOUT / HOME HERO
    ========================================= */
+.profile-photo {
+  float: right;
 
+  width: 220px;
+  height: 220px;
+
+  object-fit: cover;
+  border-radius: 50%;
+
+  margin: 0 0 1.5rem 2.5rem;
+
+  border: 4px solid #edf3f7;
+  box-shadow: 0 4px 15px rgba(30, 60, 80, 0.12);
+}
+
+@media (max-width: 680px) {
+  .profile-photo {
+    float: none;
+    display: block;
+
+    width: 170px;
+    height: 170px;
+
+    margin: 0 auto 1.5rem;
+  }
+}
+    
 .about-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 240px;
