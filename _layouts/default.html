@@ -558,13 +558,13 @@
       <div class="site-title">Alessandro Candeloro</div>
       <nav class="nav-links">
         <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/research' | relative_url }}">Research</a>
+        <a href="{{ '/publications' | relative_url }}">Publications</a>
         <a href="{{ '/notes' | relative_url }}">Notes</a>
       </nav>
     </header>
 
     <main class="content">
-        {% if page.title and page.title != "Research" %}
+        {% if page.title and page.title != "Publications" %}
           <h1 class="page-heading">{{ page.title }}</h1>
         {% endif %}
       {{ content }}
