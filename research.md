@@ -3,42 +3,91 @@ layout: default
 title: Research
 ---
 
-## Publications
+<div class="publications-header">
+  <div>
+    <h2 class="publications-title">Publications</h2>
+    <p class="publications-subtitle">
+      Selected publications and preprints.
+    </p>
+  </div>
 
-*A complete publication list is available on
-[Google Scholar](https://scholar.google.com/).*
+  <a class="scholar-button"
+     href="https://scholar.google.com/"
+     target="_blank"
+     rel="noopener">
+    Google Scholar ↗
+  </a>
+</div>
 
 {% assign publications = site.data.publications | sort: "year" | reverse %}
 
 <div class="publication-list">
 
-{% assign current_year = "" %}
-
 {% for paper in publications %}
 
-{% if paper.year != current_year %}
+<article class="publication-card">
 
-{% assign current_year = paper.year %}
+  <div class="publication-main">
 
-<h2 class="publication-year">{{ paper.year }}</h2>
+    <div class="publication-top">
 
-{% endif %}
+      <h3 class="publication-title">
+        {{ paper.title }}
+      </h3>
 
-<div class="publication-item">
+      <span class="publication-year">
+        {{ paper.year }}
+      </span>
 
-<strong>{{ paper.title }}</strong>.
-{{ paper.authors }}.
-<i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }}).
+    </div>
 
-{% if paper.doi %}
-<a href="{{ paper.doi }}">DOI</a>
-{% endif %}
+    <div class="publication-journal">
+      <span class="publication-icon">▮</span>
+      <span>{{ paper.journal }}</span>
+      {% if paper.volume %}
+        <span class="publication-volume">{{ paper.volume }}</span>
+      {% endif %}
+    </div>
 
-{% if paper.arxiv %}
-<a href="{{ paper.arxiv }}">arXiv</a>
-{% endif %}
+    <div class="publication-authors">
+      <span class="publication-icon">♟</span>
+      <span>
+        <strong>Authors:</strong> {{ paper.authors }}
+      </span>
+    </div>
 
-</div>
+    <div class="publication-actions">
+
+      {% if paper.doi %}
+        <a href="{{ paper.doi }}"
+           target="_blank"
+           rel="noopener"
+           class="publication-link">
+          VIEW PUBLICATION ↗
+        </a>
+      {% elsif paper.arxiv %}
+        <a href="{{ paper.arxiv }}"
+           target="_blank"
+           rel="noopener"
+           class="publication-link">
+          VIEW PUBLICATION ↗
+        </a>
+      {% endif %}
+
+      {% if paper.abstract %}
+        <details class="abstract-details">
+          <summary>SHOW ABSTRACT <span>⌄</span></summary>
+          <div class="abstract-content">
+            {{ paper.abstract }}
+          </div>
+        </details>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</article>
 
 {% endfor %}
 
