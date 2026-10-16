@@ -27,4 +27,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Ciao
+I am a quantum information scientist currently working at the University of Palermo in the <a href="https://quantum.unipa.it/">Quantum Theory Group</a>.
+
+<h2>Main Interests</h2>
+<ul>
+      <li>Quantum Thermodynamics</li>
+      <li>Quantum Measurement</li>
+      <li>Quantum Metrology</li>
+      <li>Quantum Walks</li>
+    </ul>
+
