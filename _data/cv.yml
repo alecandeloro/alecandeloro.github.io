@@ -24,9 +24,12 @@ cv:
         studyType: PhD
         start_date: 2019
         end_date: 2022
-        score: ""
         courses: "Physics"
-        highlights:
+        highlights: 
+          - Quantum metrology
+          - Continuous Time Quantum walks
+          - Open Quantum Systems
+          - Quantum Control
 
       - institution: Università degli Studi di Bologna
         location: Bologna, Italy
@@ -35,6 +38,7 @@ cv:
         start_date: 2017
         end_date: 2019
         highlights:
+          - Theoretical Physics
         
       - institution: Università degli Studi di Bologna
         location: Bologna, Italy
@@ -42,16 +46,16 @@ cv:
         studyType: Bachelor Degree
         start_date: 2014
         end_date: 2017
-        highlights:
 
     Experience:
       - company: Università degli Studi di Palermo
         position: Postdoctoral Researcher
         location: Palermo, Italy
         start_date: 2025
-        end_date: --
         summary: 
         highlights:
+          - Quantum Thermodynamics
+          - Quantum Metrology
 
       - company: Trinity College Dublin
         position: Research Fellow
@@ -59,21 +63,26 @@ cv:
         start_date: 2023
         end_date: 2024
         highlights:
+          - Open Quantum Systems
+          - Quantum Foundation
+          - Quantum Thermodynamics
 
       - company: Institute Neel
         position: Visiting Scholar
         location: Grenoble, France
         start_date: 2021
         end_date: 2022
+        highlights:
+          - Quantum Thermodynamics
 
-    Volunteer:
-    Awards:
-    Publications:
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # Volunteer:
+    # Awards:
+    # Publications:
+    # Skills:
+    #   - name: Physics
+    #     level: Master
+    #     icon: fa-solid fa-hashtag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
       - name: Italian
@@ -85,10 +94,10 @@ cv:
       - name: French
         summary: "Basic knowledge"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # Interests:
+    #   - name: Physics
+    #     icon: fa-solid fa-tag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     # Certificates:
       #- name: Machine Learning
