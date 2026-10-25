@@ -24,7 +24,6 @@ cv:
         studyType: PhD
         start_date: 2019
         end_date: 2022
-        courses: "Physics"
         highlights: 
           - Quantum metrology
           - Continuous Time Quantum walks
