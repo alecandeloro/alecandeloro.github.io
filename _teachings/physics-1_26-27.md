@@ -113,7 +113,8 @@ Assessment of learning for each module is conducted through written and oral exa
 
 ## Lecture Materials
 
-- Assignments: 40%
-- Midterm Exam: 20%
-- Final Project: 30%
-- Participation: 10%
+lecture_kinematics.pdf
+## Lecture Materials
+
+- [Lecture Notes - Kinematics](/assets/pdf/lectures/Physics-1_2627/lecture_kinematics.pdf)
+- [Lecture Notes - Dynamics](/assets/pdf/lectures/Physics-1_2627/lecture_dynamics.pdf)
